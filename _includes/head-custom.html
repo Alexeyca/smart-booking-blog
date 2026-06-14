@@ -8,7 +8,7 @@
   "url": "{{ site.url }}",
   "author": {
     "@type": "Organization",
-    "name": "{{ site.author.name }}",
+    "name": "{{ site.author }}",
     "url": "https://www.gochattravel.com"
   },
   "publisher": {
@@ -34,12 +34,35 @@
   "url": "{{ page.url | absolute_url }}",
   "author": {
     "@type": "Organization",
-    "name": "{{ site.author.name }}",
+    "name": "{{ site.author }}",
     "url": "https://www.gochattravel.com"
   },
   "publisher": {
     "@type": "Organization",
     "name": "GoChatTravel",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.gochattravel.com/assets/images/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ page.url | absolute_url }}"
+  }
+}
+</script>
+{% elsif page.layout == "page" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": {{ page.title | jsonify }},
+  "description": {{ page.description | default: site.description | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "publisher": {
+    "@type": "Organization",
+    "name": "GoChatTravel",
+    "url": "https://www.gochattravel.com",
     "logo": {
       "@type": "ImageObject",
       "url": "https://www.gochattravel.com/assets/images/logo.png"
