@@ -1,0 +1,28 @@
+# Site settings
+title: GoChatTravel Blog
+description: >-
+  Smart booking and travel insights from the GoChatTravel team.
+  Tips, updates, and stories about modern travel planning.
+baseurl: ""
+url: "https://alexeyca.github.io"
+github_username: Alexeyca
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Social links
+social:
+  name: GoChatTravel
+  links:
+    - https://github.com/Alexeyca
+
+# Exclude from processing
+exclude:
+  - .idea/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
