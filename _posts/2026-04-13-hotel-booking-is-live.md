@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hotel Booking Is Live — Right in Your Chat"
-date: 2026-06-13
+date: 2026-04-13
 description: "Book hotels through WhatsApp, Telegram, or Instagram. AI-powered search in 90+ languages, 24/7 support, secure Stripe payments, and free cancellation on most bookings."
 categories: [product, hotels]
 tags: [hotel booking, chat booking, ai search, 24/7 support, stripe payments, free cancellation, multilingual, travel]
@@ -34,6 +34,12 @@ You're in a taxi heading to the airport. It just hit you — you need a hotel fo
 Just open WhatsApp, type what you need, and book it in three taps. Done before you hit the terminal.
 
 That's the power of chat-first booking. Your travel assistant lives where you already are — in your messenger.
+
+## Multi-Room Bookings
+
+Traveling with family or friends? Book multiple rooms in a single reservation — each with its own guest details. One conversation, one hotel, as many rooms as you need.
+
+Just tell the bot: *"Two rooms, one king and one twin, different guests"* — and it handles the rest. Each room can have a different name on the booking, making check-in seamless for everyone.
 
 ## Cancellation Without Surprises
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Booking Travel Through Chat — Introducing GoChatTravel"
-date: 2026-06-13
+date: 2026-03-13
 description: "Book hotels, flights, tours, and trains directly in WhatsApp, Telegram, or Instagram. No apps, no registrations. AI-powered travel booking with instant confirmation."
 categories: [news, product]
 tags: [travel booking, chat commerce, ai travel, whatsapp booking, telegram travel, hotel booking, flight booking]

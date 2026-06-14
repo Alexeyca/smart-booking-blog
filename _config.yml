@@ -11,9 +11,8 @@ lang: en
 timezone: UTC
 
 # Author
-author:
-  name: GoChatTravel Team
-  email: info@gochattravel.com
+author: GoChatTravel Team
+email: info@gochattravel.com
 
 # Social & SEO
 twitter:
