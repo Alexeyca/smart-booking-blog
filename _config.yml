@@ -1,23 +1,49 @@
 # Site settings
 title: GoChatTravel Blog
 description: >-
-  Smart booking and travel insights from the GoChatTravel team.
-  Tips, updates, and stories about modern travel planning.
+  Book hotels, flights, tours, and trains directly in WhatsApp, Telegram, 
+  Facebook Messenger, WeChat, or Instagram. No apps, no registrations, no redirects.
+  AI-powered travel booking with instant confirmation.
 baseurl: ""
 url: "https://alexeyca.github.io"
 github_username: Alexeyca
+lang: en
+timezone: UTC
+
+# Author
+author:
+  name: GoChatTravel Team
+  email: support@gochattravel.com
+  twitter: gochattravel
+
+# Social & SEO
+twitter:
+  username: gochattravel
+  card: summary_large_image
+
+social:
+  name: GoChatTravel
+  links:
+    - https://github.com/Alexeyca
+    - https://www.gochattravel.com
+
+# Logo for structured data
+logo: /assets/images/logo.png
+
+# Webmaster verifications
+webmaster_verifications:
+  google: # Add your Google verification code here
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
-# Social links
-social:
-  name: GoChatTravel
-  links:
-    - https://github.com/Alexeyca
+# Feed settings
+feed:
+  path: feed.xml
 
 # Exclude from processing
 exclude:

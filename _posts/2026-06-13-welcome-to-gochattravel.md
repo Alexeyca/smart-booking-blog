@@ -2,8 +2,9 @@
 layout: post
 title: "Booking Travel Through Chat — Introducing GoChatTravel"
 date: 2026-06-13
+description: "Book hotels, flights, tours, and trains directly in WhatsApp, Telegram, or Instagram. No apps, no registrations. AI-powered travel booking with instant confirmation."
 categories: [news, product]
-tags: [launch, ai, travel, chat-booking]
+tags: [travel booking, chat commerce, ai travel, whatsapp booking, telegram travel, hotel booking, flight booking]
 ---
 
 We're launching the GoChatTravel blog. Here we'll share product updates, 
@@ -14,9 +15,9 @@ travel tips, and the story behind building a chat-first travel platform.
 Booking travel still means: download an app, create an account, fill out forms, 
 compare tabs, get redirected, repeat. Every trip starts with friction.
 
-## What GoChatTravel Does
+## What We Built
 
-GoChatTravel lets you book hotels, flights, tours, and trains **directly in your 
+A platform that lets you book hotels, flights, tours, and trains **directly in your 
 messaging app** — WhatsApp, Telegram, Facebook Messenger, WeChat, or Instagram.
 
 No new apps. No registrations. No redirects. The entire booking — from search to 
