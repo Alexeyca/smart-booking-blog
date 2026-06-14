@@ -7,21 +7,17 @@ categories: [news, product]
 tags: [travel booking, chat commerce, ai travel, whatsapp booking, telegram travel, hotel booking, flight booking]
 ---
 
-We're launching the GoChatTravel blog. Here we'll share product updates, 
-travel tips, and the story behind building a chat-first travel platform.
+We're launching our blog today. Here we'll share product updates, travel tips, and the story behind building a chat-first travel platform.
 
 ## The Problem
 
-Booking travel still means: download an app, create an account, fill out forms, 
-compare tabs, get redirected, repeat. Every trip starts with friction.
+Booking travel still means: download an app, create an account, fill out forms, compare tabs, get redirected, repeat. Every trip starts with friction.
 
 ## What We Built
 
-A platform that lets you book hotels, flights, tours, and trains **directly in your 
-messaging app** — WhatsApp, Telegram, Facebook Messenger, WeChat, or Instagram.
+A platform that lets you book hotels, flights, tours, and trains **directly in your messaging app** — WhatsApp, Telegram, Facebook Messenger, WeChat, or Instagram.
 
-No new apps. No registrations. No redirects. The entire booking — from search to 
-payment to confirmation — happens inside the chat.
+No new apps. No registrations. No redirects. The entire booking — from search to payment to confirmation — happens inside the chat.
 
 ## How It Works
 
