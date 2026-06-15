@@ -7,6 +7,8 @@ categories: [engineering, architecture]
 tags: [refactoring, cart architecture, conversational commerce, state management, event sourcing, booking engine, chat UX, multi-city]
 ---
 
+**TL;DR:** We're building GoChatTravel, a chat-first booking platform. This post explains how we redesigned our cart engine to handle complex multi-item travel bookings using event sourcing in Rust.
+
 We've been building travel technology for a long time. The booking domain — hotels, flights, tours, trains — is well-understood. The supply side, the pricing models, the fulfillment pipelines — all solved problems.
 
 What we got wrong was the cart.
@@ -93,4 +95,12 @@ When it ships, the cart will support everything real travel requires: multiple r
 
 We'll share more as the new cart architecture ships. And once it's solid, the next booking verticals roll out fast.
 
-Stay tuned.
+## Want to see it in action?
+
+This architecture powers **GoChatTravel** — a chat-first travel booking platform that lets travelers book hotels, flights, and tours through natural conversations in WhatsApp, Telegram, and other messengers.
+
+**For travelers:** Try booking your next trip via chat → [gochattravel.com](https://www.gochattravel.com/#platforms)
+
+**For travel businesses (TMCs, hotels, airlines):** We offer a white-label version of this engine. Deploy your own branded chat commerce platform in days, not months. [Learn more →](https://www.gochattravel.com/white-label.html)
+
+Questions about the architecture? [info@gochattravel.com](mailto:info@gochattravel.com)
